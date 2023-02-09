@@ -10,18 +10,18 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 ## Contents
 
-- [Causal Inference](#Causal Inference)
-- [Causal Discovery](#Causal Discovery)
-- [Causal Representation Learning](#Causal Representation Learning)
-- [Counterfactual Inference](#Counterfactual Inference)
-- [Causal Application](#Causal Application)
-  - [Causal in RecSys](#Causal in RecSys)
-  - [Causal in RL](#Causal in RL)
-  - [Causal in NLP](#Causal in NLP)
-  - [Causal in CV](#Causal in CV)
-  - [Causal in Bio](#Causal in Bio)
-  - [Causal in QA](#Causal in QA)
-  - [Causal in IR](#Causal in IR)
+- [Causal Inference](#Causal-Inference)
+- [Causal Discovery](#Causal-Discovery)
+- [Causal Representation Learning](#Causal-Representation-Learning)
+- [Counterfactual Inference](#Counterfactual-Inference)
+- [Causal Application](#Causal-Application)
+  - [Causal in RecSys](#Causal-in-RecSys)
+  - [Causal in RL](#Causal-in-RL)
+  - [Causal in NLP](#Causal-in-NLP)
+  - [Causal in CV](#Causal-in-CV)
+  - [Causal in Bio](#Causal-in-Bio)
+  - [Causal in QA](#Causal-in-QA)
+  - [Causal in IR](#Causal-in-IR)
 
 ### Causal Inference
 
