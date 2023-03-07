@@ -1,12 +1,13 @@
 # Awesome Causal Papers
 
-For benefiting the research community and promoting causal direction, we organize papers related to causal that published on top conferences recently. Currently, our repository has included ICLR'23 and NIPS'22.
+For benefiting the research community and promoting causal direction, we organize papers related to causal that published on top conferences recently. Currently, our repository has included `ICLR'23`, `NIPS'22` and `ICLR'22`.
 
 We are glad for pointing out our misunderstandings, and welcome to contribute to this repository!
 
 #### What's new:
 
-- 2023/2/9	We update to include ICLR'23 and NIPS'22.
+- 2023/3/7  We add papers from `ICLR'22`. We merge `Causal in QA` into `Causal in NLP`.
+- 2023/2/9	We add papers from `ICLR'23` and `NIPS'22`.
 
 ## Contents
 
@@ -20,7 +21,6 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
   - [Causal in NLP](#Causal-in-NLP)
   - [Causal in CV](#Causal-in-CV)
   - [Causal in Bio](#Causal-in-Bio)
-  - [Causal in QA](#Causal-in-QA)
   - [Causal in IR](#Causal-in-IR)
 
 ### Causal Inference
@@ -39,6 +39,15 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 **[Causal Inference] Causal Balancing for Domain Generalization**. (2023-ICLR) Xinyi Wang, Michael Saxon, Jiachen Li, Hongyang Zhang, Kun Zhang, William Yang Wang. 
 **TLDR**: We propose a balanced mini-batch sampling strategy to reduce spurious correlations for domain generalization. (域泛化) 
+
+**[Causal Inference] Learning Causal Models from Conditional Moment Restrictions by Importance Weighting**. (2022-ICLR) Masahiro Kato, Masaaki Imaizumi, Kenichiro McAlinn, Shota Yasui, Haruo Kakehi. 
+**TLDR**: Learning causal relationships under conditional moment restrictions by importance weighting using the conditional density ratio function. (通过条件密度函数的重要性加权来在条件动量限制下学习因果关系) 
+
+**[Causal Inference] Adversarial Robustness Through the Lens of Causality**. (2022-ICLR) Yonggang Zhang, Mingming Gong, Tongliang Liu, Gang Niu, Xinmei Tian, Bo Han, Bernhard Schölkopf, Kun Zhang. 
+**TLDR**: The first attempt towards using causality to understand and mitigate adversarial vulnerability. (以因果视角来理解对抗鲁棒) 
+
+**[Causal Inference] β-Intact-VAE: Identifying and Estimating Causal Effects under Limited Overlap**. (2022-ICLR) Pengzhou Abel Wu, Kenji Fukumizu. 
+**TLDR**: See all these naturally in one: limited overlap, prognostic score, identifiable VAE, balanced representation Learning, CATE error bounds. (将一些因果的重要成分统一起来) 
 
 **[Causal Inference] Falsification before Extrapolation in Causal Effect Estimation**. (2022-NIPS) Zeshan Hussain, Michael Oberst, Ming-Chieh Shih, David Sontag. 
 **TLDR**: We propose a meta-algorithm that attempts to reject observational estimates that are biased. (基于元算法降低观测估量中的偏差) 
@@ -129,6 +138,21 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal Discovery] Learning to Induce Causal Structure**. (2023-ICLR) Nan Rosemary Ke, Silvia Chiappa, Jane X Wang, Jorg Bornschein, Anirudh Goyal, Melanie Rey, Theophane Weber, Matthew Botvinick, Michael Curtis Mozer, Danilo Jimenez Rezende. 
 **TLDR**: We tackle causal structure induction with a supervised approach (CSIvA) that maps datasets composed of both observational and interventional samples to structures. (因果结构归纳) 
 
+**[Causal Discovery] Optimal Transport for Causal Discovery**. (2022-ICLR) Ruibo Tu, Kun Zhang, Hedvig Kjellstrom, Cheng Zhang. 
+**TLDR**: We provide a novel dynamical-system view of FCMs and propose a new framework for identifying causal direction in the bivariate case. (基于动态系统分析FCM模型并提出双变量的因果方向推断框架) 
+
+**[Causal Discovery] Graph-Augmented Normalizing Flows for Anomaly Detection of Multiple Time Series**. (2022-ICLR) Enyan Dai, Jie Chen. 
+**TLDR**:  We propose a novel flow model by imposing a Bayesian network among constituent series. (在一致序列中提出了新的贝叶斯网络学习) 
+
+**[Causal Discovery] Granger causal inference on DAGs identifies genomic loci regulating transcription**. (2022-ICLR) Alexander P Wu, Rohit Singh, Bonnie Berger. 
+**TLDR**: We show how to extend Granger causality to DAG-structured dynamical systems using graph neural networks, applying it to infer noncoding regions involved in gene regulation. (通过GNN将Granger因果引入DAG结构的动态系统中) 
+
+**[Causal Discovery] Learning Temporally Causal Latent Processes from General Temporal Data**. (2022-ICLR) Weiran Yao, Yuewen Sun, Alex Ho, Changyin Sun, Kun Zhang. 
+**TLDR**: Propose two provable conditions and training framework with which temporally latent causal processes are identifiable from observed variables. (从观测数据中识别时序隐因果过程) 
+
+**[Causal Discovery] Efficient Neural Causal Discovery without Acyclicity Constraints**. (2022-ICLR) Phillip Lippe, Taco Cohen, Efstratios Gavves. 
+**TLDR**: We present ENCO, an efficient structure learning method that leverages observational and interventional data and scales to graphs with a thousand variables. (用观测数据和干涉数据来高效进行因果发现) 
+
 **[Causal Discovery] Causal Discovery in Heterogeneous Environments Under the Sparse Mechanism Shift Hypothesis**. (2022-NIPS) Ronan Perry, Julius Von Kügelgen, Bernhard Schölkopf. 
 **TLDR**: We theoretically prove and empirically demonstrate the value of the sparse mechanism shift hypothesis for learning causal graphs from heterogenous data. (异质图上的因果发现) 
 
@@ -194,6 +218,16 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal Representation Learning] What Is Missing in IRM Training and Evaluation? Challenges and Solutions**. (2023-ICLR) Yihua Zhang, Pranay Sharma, Parikshit Ram, Mingyi Hong, Kush R. Varshney, Sijia Liu. 
 **TLDR**: We propose a new IRM variant to address limitation based on a novel viewpoint of ensemble IRM games as consensus-constrained bi-level optimization. (IRM 变体) 
 
+**[Causal Representation Learning] Asymmetry Learning for Counterfactually-invariant Classification in OOD Tasks**. (2022-ICLR) S Chandra Mouli, Bruno Ribeiro. 
+**TLDR**:  We then propose a new learning paradigm, asymmetry learning, that identifies which symmetries the classifier must break in order to correctly predict 
+ in both train and test. (解决OOD鲁棒问题的反事实不变学习) 
+
+**[Causal Representation Learning] Discovering Invariant Rationales for Graph Neural Networks**. (2022-ICLR) Yingxin Wu, Xiang Wang, An Zhang, Xiangnan He, Tat-Seng Chua. 
+**TLDR**: We propose a novel invariant learning algorithm, Discovering Invariant Rationale (DIR), for intrinsically interpretable models. (用不变表示学习来解释GNN) 
+
+**[Causal Representation Learning] Invariant Causal Representation Learning for Out-of-Distribution Generalization**. (2022-ICLR) Chaochao Lu, Yuhuai Wu, José Miguel Hernández-Lobato, Bernhard Schölkopf. 
+**TLDR**: We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). (因果不变表示学习解决OOD泛化问题) 
+
 **[Causal Representation Learning] Weakly supervised causal representation learning**. (2022-NIPS) Johann Brehmer, Pim De Haan, Phillip Lippe, Taco Cohen. 
 **TLDR**: We show that causal factors and their causal structure can be identified from low-level data (e.g. pixels) observed before and after interventions. (因果效应能够被低层次数据识别) 
 
@@ -232,6 +266,9 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Counterfactual Inference] Neural Causal Models for Counterfactual Identification and Estimation**. (2023-ICLR) Kevin Muyuan Xia, Yushu Pan, Elias Bareinboim. 
 **TLDR**: We solve the two problems of counterfactual identification and estimation from arbitrary surrogate experiments using a Generative Adversarial Network implementation of the Neural Causal Model. (反事实识别与评估) 
 
+**[Counterfactual Inference] Filtered-CoPhy: Unsupervised Learning of Counterfactual Physics in Pixel Space**. (2022-ICLR) Steeven JANNY, Fabien Baradel, Natalia Neverova, Madiha Nadri, Greg Mori, Christian Wolf. 
+**TLDR**: We present a method for learning counterfactual reasoning of physical processes in pixel space, which requires the prediction of the impact of interventions on initial conditions. (像素空间的无监督反事实学习) 
+
 **[Counterfactual Inference] Counterfactual Fairness with Partially Known Causal Graph**. (2022-NIPS) . 
 **TLDR**:  This paper proposes a general method to achieve the notion of counterfactual fairness when the true causal graph is unknown. (不完全因果图上的反事实公平性) 
 
@@ -256,9 +293,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Counterfactual Inference] Cluster Randomized Designs for One-Sided Bipartite Experiments**. (2022-NIPS) Jennifer Rogers Brennan, Vahab Mirrokni, Jean Pouget-Abadie. 
 **TLDR**: We present a new clustering objective for cluster-randomized experimental design in marketplace experiments. (随机聚类实验) 
 
-### Causal Application
-
-#### Causal in RecSys
+### Causal in RecSys
 
 **[Causal in RecSys] StableDR: Stabilized Doubly Robust Learning for Recommendation on Data Missing Not at Random**. (2023-ICLR) Haoxuan Li, Chunyuan Zheng, Peng Wu. 
 **TLDR**: This paper proposes a theoretically guaranteed stabilized doubly robust learning approach that overcomes the shortcomings due to the presence of extremely small propensities in debiased recommendations. (双鲁棒学习) 
@@ -266,13 +301,22 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal in RecSys] TDR-CL: Targeted Doubly Robust Collaborative Learning for Debiased Recommendations**. (2023-ICLR) Haoxuan Li, Yan Lyu, Chunyuan Zheng, Peng Wu. 
 **TLDR**: This paper proposes a principled approach that can effectively reduce the bias and variance simultaneously compared to existing DR estimators for debiased recommendations. (双鲁棒学习) 
 
+**[Causal in RecSys] From Intervention to Domain Transportation: A Novel Perspective to Optimize Recommendation**. (2022-ICLR) Da Xu, Yuting Ye, Chuanwei Ruan, Evren Korpeoglu, Sushant Kumar, Kannan Achan. 
+**TLDR**: We propose and study a novel domain-transportation view for optimizing recommendation for information retrieval systems. (域迁移视角看推荐系统优化) 
+
 **[Causal in RecSys] Towards Out-of-Distribution Sequential Event Prediction: A Causal Treatment**. (2022-NIPS) Chenxiao Yang, Qitian Wu, Qingsong Wen, Zhiqiang Zhou, Liang Sun, Junchi Yan. 
 **TLDR**: We handle temporal distribution shift in sequential event prediction tasks (时序推荐的下分布偏差问题) 
 
-#### Causal in RL
+### Causal in RL
 
 **[Causal in RL] Combinatorial Pure Exploration of Causal Bandits**. (2023-ICLR) Nuoya Xiong, Wei Chen. 
 **TLDR**: Combinatorial pure exploration algorithm of causal bandits on two different models. (因果Bandit的探索算法) 
+
+**[Causal in RL] Causal Contextual Bandits with Targeted Interventions**. (2022-ICLR) Chandrasekar Subramanian, Balaraman Ravindran. 
+**TLDR**: A new, more realistic, formalism of contextual bandits involving causal side-information and targeted interventions, along with a novel algorithm that exploits features of the new setting such as information leakage to learn good policies quickly. (引入因果信息的上下文老虎机) 
+
+**[Causal in RL] On Covariate Shift of Latent Confounders in Imitation and Reinforcement Learning**. (2022-ICLR) Guy Tennenholtz, Assaf Hallak, Gal Dalal, Shie Mannor, Gal Chechik, Uri Shalit. 
+**TLDR**: We use expert data with unobserved confounders for both imitation and reinforcement learning. Such hidden confounding is prone to a shifted distribution, which may severely hurt performance unless accounted for. (在模仿学习和强化学习中隐混淆因子产生的分布偏移影响) 
 
 **[Causal in RL] Causality-driven Hierarchical Structure Discovery for Reinforcement Learning**. (2022-NIPS) Shaohui Peng, Xing Hu, Rui Zhang, Ke Tang, Jiaming Guo, Qi Yi, Ruizhi Chen, Xishan Zhang, Zidong Du, Ling Li, Qi Guo, Yunji Chen. 
 **TLDR**: We propose CDHRL, a causality-driven hierarchical reinforcement learning framework, to build high-quality hierarchical structures efficiently in complicated environments (基于因果优化层次强化学习) 
@@ -292,7 +336,10 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal in RL] Online Reinforcement Learning for Mixed Policy Scopes**. (2022-NIPS) Junzhe Zhang, Elias Bareinboim. 
 **TLDR**: This paper investigates the online reinforcement learning setting for optimizing policies with mixed state-action spaces. (在线强化学习下优化策略与混合状态-动作空间) 
 
-#### Causal in NLP
+### Causal in NLP
+
+**[Causal in NLP] WikiWhy: Answering and Explaining Cause-and-Effect Questions**. (2023-ICLR) Matthew Ho, Aditya Sharma, Justin Chang, Michael Saxon, Sharon Levy, Yujie Lu, William Yang Wang. 
+**TLDR**: We propose WikiWhy, a dataset containing 9000+ "why" question-answer-rationale triplets to assess Large Language Models' cause-effect reasoning capability. (问答与因果效应) 
 
 **[Causal in NLP] Causal Estimation for Text Data with (Apparent) Overlap Violations**. (2023-ICLR) Lin Gui, Victor Veitch. 
 **TLDR**: The purpose of this paper is to show how to handle causal identification and obtain robust causal estimation in the presence of apparent overlap violations. (文本因果效应估计) 
@@ -300,7 +347,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal in NLP] CEBaB: Estimating the Causal Effects of Real-World Concepts on NLP Model Behavior**. (2022-NIPS) Eldar David Abraham, Karel D'Oosterlinck, Amir Feder, Yair Ori Gat, Atticus Geiger, Christopher Potts, Roi Reichart, Zhengxuan Wu. 
 **TLDR**: Casting model explanation as a causal inference problem, we introduce CEBaB, a new benchmark dataset for assessing explanation methods in NLP. (将模型解释作为因果推断问题) 
 
-#### Causal in CV
+### Causal in CV
 
 **[Causal in CV] Measuring axiomatic soundness of counterfactual image models**. (2023-ICLR) Miguel Monteiro, Fabio De Sousa Ribeiro, Nick Pawlowski, Daniel C. Castro, Ben Glocker. 
 **TLDR**: We use the axiomatic definition of counterfactual to derive metrics that enable quantifying the correctness of approximate counterfactual inference models. (图像反事实评估) 
@@ -311,7 +358,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal in CV] Unsupervised Causal Generative Understanding of Images**. (2022-NIPS) Titas Anciukevičius, Patrick Fox-Roberts, Edward Rosten, Paul Henderson. 
 **TLDR**: A framework for unsupervised object-centric 3D scene understanding that generalizes robustly to out-of-distribution images.  (非监督的因果图像生成) 
 
-#### Causal in Bio
+### Causal in Bio
 
 **[Causal in Bio] GEASS: Neural causal feature selection for high-dimensional biological data**. (2023-ICLR) Mingze Dong, Yuval Kluger. 
 **TLDR**: We propose a new method (GEASS) to identify causally interacting features for high-dimensional spatial/temporal structured data, and apply it to several biological data to infer causal regulatory patterns. (在高维空间中识别因果交互特征) 
@@ -325,12 +372,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal in Bio] Debiased, Longitudinal and Coordinated Drug Recommendation through Multi-Visit Clinic Records**. (2022-NIPS) Hongda Sun, Shufang Xie, Shuqi Li, Yuhan Chen, Ji-Rong Wen, Rui Yan. 
 **TLDR**: This paper proposes a causal inference based method for debiased, longitudinal and coordinated drug recommendation. (基于因果推断的药物推荐) 
 
-#### Causal in QA
-
-**[Causal in QA] WikiWhy: Answering and Explaining Cause-and-Effect Questions**. (2023-ICLR) Matthew Ho, Aditya Sharma, Justin Chang, Michael Saxon, Sharon Levy, Yujie Lu, William Yang Wang. 
-**TLDR**: We propose WikiWhy, a dataset containing 9000+ "why" question-answer-rationale triplets to assess Large Language Models' cause-effect reasoning capability. (问答与因果效应) 
-
-#### Causal in IR
+### Causal in IR
 
 **[Causal in IR] Using Embeddings for Causal Estimation of Peer Influence in Social Networks**. (2022-NIPS) Irina Cristali, Victor Veitch. 
 **TLDR**: We propose a nonparametric method of causally estimating peer influence from observational data, in the presence of unobserved confounding.  (基于非参数化的因果方法评估同伴影响) 
@@ -339,6 +381,6 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 ### Contributors
 
-Zeyu Zhang: ICLR'23, NIPS'22
+Zeyu Zhang: `ICLR'23`, `NIPS'22`, `ICLR'22`
 
-Heyang Gao: ICLR'23
+Heyang Gao: `ICLR'23`
