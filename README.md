@@ -29,8 +29,6 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 ### Causal Inference
 
-### Causal Inference
-
 **[Causal Inference] Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization**. (2023-ICLR) Jivat Neet Kaur, Emre Kiciman, Amit Sharma. 
 **TLDR**: Use causal knowledge on data generation to solve OOD problem. (用因果性挖掘数据生成规律以解决分布偏移问题) 
 
