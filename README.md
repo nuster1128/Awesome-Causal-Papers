@@ -1,13 +1,14 @@
 # Awesome Causal Papers
 
 For benefiting the research community and promoting causal direction, we organize papers related to causal that published on top conferences recently. Currently, our repository has included:
-- `2022`: `NIPS`, `ICLR`, `ICML`, `SIGKDD`.
+- `2022`: `NIPS`, `ICLR`, `ICML`, `SIGKDD`, `WWW`, `SIGIR`.
 - `2023`: `ICLR`.
 
 We are glad for pointing out our misunderstandings, and welcome to contribute to this repository!
 
 #### What's new:
 
+- 2023/3/29 We add papers from `WWW'22` and `SIGIR'22`.
 - 2023/3/13 We add papers from `ICML'22`
 - 2023/3/12 We add papers from `SIGKDD'22`.
 - 2023/3/7  We add papers from `ICLR'22`. We merge `Causal in QA` into `Causal in NLP`.
@@ -194,6 +195,21 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal Inference] Causal Inference-Based Root Cause Analysis for Online Service Systems with Intervention Recognition**. (2022-SIGKDD) Mingjie Li, Zeyan Li, Kanglin Yin, Xiaohui Nie, Wenchi Zhang, Kaixin Sui, Dan Pei. 
 **TLDR**: In this paper, we formulate the root cause analysis problem as a new causal inference task named intervention recognition. We proposed a novel unsupervised causal inference-based method named Causal Inference-based Root Cause Analysis (CIRCA).  (基于因果推断的RCA方法) 
 
+**[Causal Inference] Interference, Bias, and Variance in Two-Sided Marketplace Experimentation: Guidance for Platforms**. (2022-WWW) Hannah Li, Geng Zhao, Ramesh Johari, Gabriel Weintraub. 
+**TLDR**: We develop a simple, tractable market model to study bias and variance in these experiments with interference (分析偏差和方差来指导系统的决策) 
+
+**[Causal Inference] Assessing the Causal Impact of COVID-19 Related Policies on Outbreak Dynamics: A Case Study in the US**. (2022-WWW) Jing Ma, Yushun Dong, Zheng Huang, Daniel Mietchen, Jundong Li. 
+**TLDR**: In this paper, we study the problem of assessing the causal effects of different COVID-19 related policies on the outbreak dynamics in different counties at any given time period (研究COVID-19政策在不同国家的因果效应) 
+
+**[Causal Inference] LBCF: A Large-Scale Budget-Constrained Causal Forest Algorithm**. (2022-WWW) Meng Ai, Biao Li, Heyang Gong, Qingwei Yu, Shengjie Xue, Yuan Zhang, Yunzhou Zhang, Peng Jiang. 
+**TLDR**: We propose a novel tree-based treatment selection technique under budget constraints, called Large-Scale Budget-Constrained Causal Forest (LBCF) algorithm, which is also an efficient treatment selection algorithm suitable for modern distributed computing systems. (在线平台高效的干预选择) 
+
+**[Causal Inference] Learning and Evaluating Graph Neural Network Explanations based on Counterfactual and Factual Reasoning**. (2022-WWW) Juntao Tan, Shijie Geng, Zuohui Fu, Yingqiang Ge, Shuyuan Xu, Yunqi Li,  Yongfeng Zhang. 
+**TLDR**: In this paper, we take insights of Counterfactual and Factual (CF2) reasoning from causal inference theory, to solve both the learning and evaluation problems in explainable GNNs. (反事实推断生成图神经网络解释) 
+
+**[Causal Inference] Generalizing to the Future: Mitigating Entity Bias in Fake News Detection**. (2022-SIGIR) Yongchun Zhu, Qiang Sheng, Juan Cao, Shuokai Li, Danding Wang, Fuzhen Zhuang. 
+**TLDR**: we propose an entity debiasing framework (ENDEF) which generalizes fake news detection models to the future data by mitigating entity bias from a cause-effect perspective (利用因果图对虚假新闻检测去偏) 
+
 ### Causal Discovery
 
 **[Causal Discovery] Rhino: Deep Causal Temporal Relationship Learning with History-dependent Noise**. (2023-ICLR) Wenbo Gong, Joel Jennings, Cheng Zhang, Nick Pawlowski. 
@@ -301,6 +317,12 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal Discovery] Learning to Discover Causes of Traffic Congestion with Limited Labeled Data**. (2022-SIGKDD) Mudan Wang, Huan Yan, Hongjie Sui, Fan Zuo, Yue Liu, Yong Li. 
 **TLDR**: we design a congestion cause discovery system consisting of two modules: 1) congestion feature extraction, which extracts the important features influencing congestion; and 2) congestion cause discovery, which utilize a deep semi-supervised learning based method to discover the causes of traffic congestion with limited labeled causes. (发现交通拥堵的原因) 
 
+**[Causal Discovery] CausPref: Causal Preference Learning for Out-of-Distribution Recommendation**. (2022-WWW) Yue He, Zimu Wang, Peng Cui, Hao Zou, Yafeng Zhang, Qiang Cui, Yong Jiang. 
+**TLDR**: we propose to incorporate the recommendation-specific DAG learner into a novel causal preference-based recommendation framework named CausPref, mainly consisting of causal learning of invariant user preference and anti-preference negative sampling to deal with implicit feedback. (学习因果图解决推荐中的OOD问题) 
+
+**[Causal Discovery] Towards Event-level Causal Relation Identification**. (2022-SIGIR) Chuang Fan, Daoxing Liu, Libo Qin, Yue Zhang, Ruifeng Xu. 
+**TLDR**: We propose to identify causal relations in a more realistic setting, where event-level causality identification can be made (在事件级别识别因果关系) 
+
 ### Causal Representation Learning
 
 **[Causal Representation Learning] Efficient Conditionally Invariant Representation Learning**. (2023-ICLR) Roman_Pogodin, Namrata Deka, Yazhe Li, Danica J. Sutherland, Victor Veitch, Arthur Gretton. 
@@ -373,6 +395,15 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal Representation Learning] Causal Attention for Interpretable and Generalizable Graph Classification**. (2022-SIGKDD) Yongduo Sui, Xiang Wang, Jiancan Wu, Min Lin, Xiangnan He, Tat-Seng Chua. 
 **TLDR**: We propose the Causal Attention Learning (CAL) strategy, which discovers the causal patterns and mitigates the confounding effect of shortcuts (图分类的因果注意力学习策略) 
 
+**[Causal Representation Learning] Causal Representation Learning for Out-of-Distribution Recommendation**. (2022-WWW) Wenjie Wang, Xinyu Lin, Fuli Feng, Xiangnan He, Min Lin, Tat-Seng Chua. 
+**TLDR**: We devise a new Variational Auto-Encoder for causal modeling by incorporating an encoder to infer unobserved user features from historical interactions, and further perform counterfactual inference to mitigate the effect of out-of-date interactions. (推荐OOD下的因果表征学习) 
+
+**[Causal Representation Learning] A Model-Agnostic Causal Learning Framework for Recommendation using Search Data**. (2022-WWW) Zihua Si, Xueran Han, Xiao Zhang, Jun Xu, Yue Yin, Yang Song, Ji-Rong Wen. 
+**TLDR**: we propose a model-agnostic framework named IV4Rec that can effectively decompose the embedding vectors into causal and non-causal parts, hence enhancing recommendation results. (推荐场景下解耦因果和非因果关系以增强推荐效果) 
+
+**[Causal Representation Learning] Learning Disentangled Representations for Counterfactual Regression via Mutual Information Minimization**. (2022-SIGIR) Mingyuan Cheng, Xinru Liao, Quan Liu, Bin Ma, Jian Xu, Bo Zheng. 
+**TLDR**: we propose Disentangled Representations for Counterfactual Regression via Mutual Information Minimization (MIM-DRCFR), which uses a multi-task learning framework to share information when learning the latent factors and incorporates MI minimization learning criteria to ensure the independence of these factors. (利用互信息学习协变量的解耦表征) 
+
 ### Counterfactual Inference
 
 **[Counterfactual Inference] Neural Causal Models for Counterfactual Identification and Estimation**. (2023-ICLR) Kevin Muyuan Xia, Yushu Pan, Elias Bareinboim. 
@@ -432,6 +463,15 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Counterfactual Inference] Counterfactual Phenotyping with Censored Time-to-Events**. (2022-SIGKDD) Chirag Nagpal, Mononito Goswami, Keith Dufendach, Artur Dubrawski. 
 **TLDR**: we present a latent variable approach to model heterogeneous treatment effects by proposing that an individual can belong to one of latent clusters with distinct response characteristics. (潜变量方法模拟异质治疗效果) 
 
+**[Counterfactual Inference] Counterfactual Learning To Rank for Utility-Maximizing Query Autocompletion**. (2022-SIGIR) Adam Block, Rahul Kidambi, Daniel Hill, Thorsten Joachims, Inderjit Dhillon. 
+**TLDR**: We proposed a counterfactual learning approach that is able to leverage feedback on the items (e.g., clicks, purchases) to evaluate query suggestions through an unbiased estimator, thus avoiding the assumption that users write or select optimal queries. (反事实提升查询补全任务质量) 
+
+**[Counterfactual Inference] Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach**. (2022-SIGIR) Shengyao Zhuang, Hang Li, Guido Zuccon. 
+**TLDR**: We propose the Counterfactual Rocchio (CoRocchio) algorithm to overcome bias for exploiting implicit feedback in Dense Retrievers (稠密检索中去偏) 
+
+**[Counterfactual Inference] Alleviating Spurious Correlations in Knowledge-aware Recommendations through Counterfactual Generator**. (2022-SIGIR) Shanlei Mu, Yaliang Li, Wayne Xin Zhao, Jingyuan Wang, Bolin Ding and Ji-Rong Wen. 
+**TLDR**: we present a novel approach to discovering and alleviating the potential spurious correlations from a counterfactual perspective (反事实增强去除虚假关联) 
+
 ### Causal in RecSys
 
 **[Causal in RecSys] StableDR: Stabilized Doubly Robust Learning for Recommendation on Data Missing Not at Random**. (2023-ICLR) Haoxuan Li, Chunyuan Zheng, Peng Wu. 
@@ -469,6 +509,12 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 **[Causal in RecSys] CausalInt: Causal Inspired Intervention for Multi-Scenario Recommendation**. (2022-SIGKDD) Yichao Wang, Huifeng Guo, Bo Chen, Weiwen Liu, Zhirong Liu, Qi Zhang, Zhicheng He, Hongkun Zheng, Weiwei Yao, Muyu Zhang, Zhenhua Dong, Ruiming Tang. 
 **TLDR**: we first do analysis on multi-scenario modeling with causal graph from the perspective of users and modeling processes, and then propose the Causal Inspired Intervention (CausalInt) framework for multi-scenario recommendation. (多场景推荐的因果干预) 
+
+**[Causal in RecSys] Unbiased Sequential Recommendation with Latent Confounders**. (2022-WWW) Zhenlei Wang, Shiqi Shen, Zhipeng Wang, Bo Chen, Xu Chen, Ji-Rong Wen. 
+**TLDR**: we propose to reformulate the sequential recommendation task with the potential outcome framework and remove the sample selection bias (序列化推荐去偏) 
+
+**[Causal in RecSys] Bilateral Self-unbiased Learning from Biased Implicit Feedback**. (2022-SIGIR) Jae-woong Lee, Seongmin Park, Joonseok Lee, Jongwuk Lee. 
+**TLDR**: we propose a novel unbiased recommender learning model, namely BIlateral SElf-unbiased Recommender (BISER), to eliminate the exposure bias of items caused by recommender models (推荐中物品曝光偏差问题) 
 
 ### Causal in RL
 
@@ -531,6 +577,9 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Causal in NLP] Ask to Know More:Generating Counterfactual Explanations for Fake Claims**. (2022-SIGKDD) Shih-Chieh Dai, Yi-Li Hsu, Aiping Xiong, Lun-Wei Ku. 
 **TLDR**: we propose elucidating fact checking predictions using counterfactual explanations to help people understand why a specific piece of news was identified as fake. In this work, generating counterfactual explanations for fake news involves three steps: asking good questions, finding contradictions, and reasoning appropriately. We frame this research question as contradicted entailment reasoning through question answering (QA). (生成反事实的虚假新闻解释) 
 
+**[Causal in NLP] DeSCoVeR: Debiased Semantic Context Prior for Venue Recommendation**. (2022-SIGIR) Sailaja Rajanala, Arghya Pal, Manish Singh, Raphael Phan, Wong Koksheik. 
+**TLDR**: We proposed a methodology that we call DeSCoVeR at first elicits these semantic and syntactic features using a Neural Topic Model and text classifier respectively, and then mitigates the document-level label bias using a Causal back-door path criterion and a sentence-level keyword bias removal technique. (利用后门调整消除关键词偏差) 
+
 ### Causal in CV
 
 **[Causal in CV] Measuring axiomatic soundness of counterfactual image models**. (2023-ICLR) Miguel Monteiro, Fabio De Sousa Ribeiro, Nick Pawlowski, Daniel C. Castro, Ben Glocker. 
@@ -562,7 +611,6 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **TLDR**: We propose a nonparametric method of causally estimating peer influence from observational data, in the presence of unobserved confounding.  (基于非参数化的因果方法评估同伴影响) 
 
 
-
 ### Contributors
 
 Zeyu Zhang: `ICLR'23`, `NIPS'22`, `ICLR'22`
@@ -570,3 +618,5 @@ Zeyu Zhang: `ICLR'23`, `NIPS'22`, `ICLR'22`
 Heyang Gao: `ICLR'23`, `ICML'22`
 
 Xueyang Feng: `SIGKDD'22`
+
+Hao Yang: `WWW'22`, `SIGIR'22`
